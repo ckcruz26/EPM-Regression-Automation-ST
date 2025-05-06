@@ -17,4 +17,4 @@ Verify Successful Message
 Verify Error Message
     Sleep    2s
     Wait Until Element Is Visible      id:modalDynamicMessage
-    Element Text Should Be    id:modalDynamicMessage     Oops! Invalid Credentials. Please contact HRPPMS-RSP for further assistance in verifying your information. 
+    Element Text Should Be    id:modalDynamicMessage    Oops! Invalid Credentials. You have 2 more attempt(s) before your account is locked. Please contact HRPPMS-RSP for further assistance in verifying your information. 
